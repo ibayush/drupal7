@@ -23,7 +23,7 @@ function block_form_block_view($delta = '') {
   $block = array();
   switch ($delta) {
     case 'my_block':
-      $block['subject'] = t('My Custom Block');
+      $block['subject'] = t('My Custom Blocks');
       $block['content'] = $block['content'] = my_block_view();
       break;
   }
