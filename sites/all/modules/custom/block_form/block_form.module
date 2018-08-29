@@ -11,7 +11,7 @@
 function block_form_block_info() {
   $blocks = array();
   $blocks['my_block'] = array(
-    'info' => t('My Custom Block'),
+    'info' => t('My Custom Blocks'),
   );
   return $blocks;
 }
