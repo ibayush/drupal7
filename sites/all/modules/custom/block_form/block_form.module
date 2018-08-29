@@ -7,7 +7,6 @@
 
 /**
  * Implements hook block Info.
- * Implements hook blocks Info
  */
 function block_form_block_info() {
   $blocks = array();
