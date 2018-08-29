@@ -1,0 +1,7 @@
+name = myblock
+description = This is a block
+version = VERSION
+core = 7.x
+
+
+

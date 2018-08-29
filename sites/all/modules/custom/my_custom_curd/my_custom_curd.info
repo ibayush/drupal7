@@ -1,0 +1,12 @@
+name = "My Custom Curd"
+description = "This is a simple curd operation"
+core = 7.x
+version = "7.x-2.0"
+project = "my_custom_curd"
+package = "My Module"
+configure = admin/custom/my_custom_curd
+datestamp = “1385568677″
+
+
+
+

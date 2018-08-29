@@ -1,0 +1,23 @@
+<?php
+
+function helloworld_block_info() {
+    $blocks['content'] = array(
+        'info' => t('content'),
+        'cache' => DRUPAL_NO_CACHE,
+	'region' => 'sidebar_first',
+    );
+    
+	return $blocks;
+}
+
+function helloworld_block_view($delta = '') {
+    $block = array();
+    switch ($delta) {
+        case 'content':	
+	    $block['subject'] = t('Statistics');
+	    $block['content'] = get_contents();
+	    break;
+	}
+	
+	return $block;
+}

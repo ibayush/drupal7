@@ -1,0 +1,7 @@
+name = helloworld
+description = helloworld
+version = VERSION
+core = 7.x
+
+
+

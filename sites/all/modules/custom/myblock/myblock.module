@@ -1,0 +1,41 @@
+<?php
+/*function custom_block_block_info() {
+  $blocks = array();
+  $blocks['my_block'] = array(
+    'info' => t('My Custom Block'),
+  );
+  
+  return $blocks;
+}
+function myblock_custom_form(&$form_state){
+$form = array();
+    $form['name'] = array(
+        '#type'         => 'textfield',
+        '#title'        => t("Enter a name"),
+        '#weight'       => 10,
+        '#required'     => true,
+    );
+
+    $form['submit'] = array(
+        '#type'         => 'submit'
+        '#value'        => t("Submit"),
+        '#weight'       => 20,
+    );
+
+    return $form;
+}
+
+function myblock_block_view($delta = ""){
+    $block = array();
+
+    switch($delta){
+        case "myblock":
+            $block['subject'] = t(" ");
+            $block['content'] = drupal_get_form("myblock_custom_form");
+            break;
+    }
+
+    return $block;
+}*/
+
+
